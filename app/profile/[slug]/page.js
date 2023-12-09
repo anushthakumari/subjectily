@@ -34,7 +34,7 @@ const page = () => {
 						<a
 							href="#"
 							className="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">
-							Hire me
+							Connect
 						</a>
 					</div>
 				</div>
@@ -402,7 +402,7 @@ const page = () => {
 				</div>
 			</section>
 
-			<section className="py-10 md:py-16">
+			{/* <section className="py-10 md:py-16">
 				<div className="container max-w-screen-xl mx-auto px-4">
 					<h1 className="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
 						Brands
@@ -426,7 +426,7 @@ const page = () => {
 						<img src="/assets/image/brand-6.png" alt="Image" />
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<section className="py-10 md:py-16">
 				<div className="container max-w-screen-xl mx-auto px-4">
