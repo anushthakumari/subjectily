@@ -14,7 +14,6 @@ export default function RootLayout({ children }) {
 			<Header />
 			{children}
 			<Footer />
-			<Script src="/assets/js/feather.min.js" />
 		</body>
 	);
 }

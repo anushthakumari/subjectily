@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
 				/>
 			</Head>
 			<body className="bg-gray-100">{children}</body>
+			<Script src="/assets/js/feather.min.js" />
 		</html>
 	);
 }
