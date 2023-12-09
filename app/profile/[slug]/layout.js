@@ -1,6 +1,7 @@
 import Script from "next/script";
 
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export const metadata = {
 	title: "A Profile",
@@ -10,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<body>
+			<Header />
 			{children}
 			<Footer />
 			<Script src="/assets/js/feather.min.js" />
