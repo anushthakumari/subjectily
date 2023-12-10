@@ -1,4 +1,9 @@
+import Script from "next/script";
+
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ProfileCard from "@/components/ProfileCard";
 
 export default function Home() {
 	return (
@@ -44,6 +49,35 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
+
+			<section className="flex flex-col justify-center py-10">
+				<Container>
+					<div className="grid grid-cols-4 gap-8 mx-auto">
+						<ProfileCard />
+						<ProfileCard />
+						<ProfileCard />
+						<ProfileCard />
+					</div>
+				</Container>
+			</section>
+
+			<section className="bg-black py-10 text-center">
+				<div className="my-8">
+					<h1 className="text-5xl font-bold">
+						Elevate Your Research Journey with Subjectly
+					</h1>
+					<h2 className="text-2xl font-bold">
+						Connecting Scholars and Expertise for Exceptional Academic Success
+					</h2>
+
+					<button className="my-8 text-2xl font-bold rounded-full border-4 p-4 transition duration-250 ease-in-out hover:bg-white hover:text-black">
+						Find Experts
+					</button>
+				</div>
+			</section>
+
+			<Footer />
+			<Script src="/assets/js/feather.min.js" />
 		</>
 	);
 }
