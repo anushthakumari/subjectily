@@ -12,7 +12,11 @@ export default function Home() {
 			<section className="h-[60vh] flex flex-col justify-center">
 				<div className="">
 					<center className="max-w-6xl mx-auto mb-8">
-						<h1 className="text-gray-400 capitalize text-5xl font-bold mb-4">
+						<h1 className="text-gray-400 capitalize text-5xl font-bold mb-4 relative">
+							<img
+								src="/assets/image/hat.png"
+								className="absolute transform rotate-12 z-[-1] left-[50%] top-[-65px] h-20"
+							/>
 							<span className="">
 								Unlock <span className="text-black">Academic Excellence </span>
 								with <span className="text-black">Subjectly.</span>
@@ -28,7 +32,7 @@ export default function Home() {
 						</h3>
 					</center>
 
-					<div className="w-[60%] mx-auto rounded-lg overflow-hidden">
+					<div className="w-[95%] md:w-[60%] mx-auto rounded-lg overflow-hidden">
 						<div className="md:flex">
 							<div className="w-full p-3">
 								<div className="relative">
@@ -52,7 +56,11 @@ export default function Home() {
 
 			<section className="flex flex-col justify-center py-10 mb-20">
 				<Container>
-					<div className="grid grid-cols-4 gap-8 mx-auto">
+					<div className="grid grid-cols-1 gap-8 mx-auto md:grid-cols-4">
+						<ProfileCard />
+						<ProfileCard />
+						<ProfileCard />
+						<ProfileCard />
 						<ProfileCard />
 						<ProfileCard />
 						<ProfileCard />
@@ -66,7 +74,7 @@ export default function Home() {
 					<h1 className="text-5xl font-bold">
 						Elevate Your Research Journey with Subjectly
 					</h1>
-					<h2 className="text-2xl font-bold">
+					<h2 className="text-2xl font-bold my-3">
 						Connecting Scholars and Expertise for Exceptional Academic Success
 					</h2>
 
