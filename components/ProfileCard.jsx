@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 const ProfileCard = () => {
 	return (
@@ -15,10 +14,10 @@ const ProfileCard = () => {
 				</a>
 				<div className="p-5">
 					<a href="/profile/one-more">
-						<h5 className="text-white font-bold text-2xl tracking-tight mb-2">
+						<h5 className="text-white font-bold text-xl tracking-tight mb-2">
 							Kate Wolf
 						</h5>
-						<h4 className="text-white font-bold text-xl tracking-tight mb-2">
+						<h4 className="text-white font-bold text-lg tracking-tight mb-2">
 							Senior Backend Developer
 						</h4>
 					</a>

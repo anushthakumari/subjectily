@@ -50,7 +50,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="flex flex-col justify-center py-10">
+			<section className="flex flex-col justify-center py-10 mb-20">
 				<Container>
 					<div className="grid grid-cols-4 gap-8 mx-auto">
 						<ProfileCard />
