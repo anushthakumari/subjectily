@@ -27,7 +27,7 @@ export default function Home() {
 							</span> */}
 						</h1>
 						<h3 className="text-xl text-gray-400 capitalize font-bold">
-							Connecting You with Expertise: Find PhD Thesis, Master's
+							Connecting You with Expertise: Find PhD Thesis, Master&apos;s
 							Dissertations, and Research Support in One Place
 						</h3>
 					</center>

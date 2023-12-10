@@ -12,7 +12,7 @@ const Footer = () => {
 					</h1>
 
 					<p className="font-normal text-gray-400 text-md md:text-lg mb-20">
-						We're everywhere
+						We&apos;re everywhere
 					</p>
 
 					<div className="flex items-center justify-center space-x-8">
